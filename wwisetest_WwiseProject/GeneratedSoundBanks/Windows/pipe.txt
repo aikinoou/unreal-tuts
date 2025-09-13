@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1137079649	pipe2			\Default Work Unit\pipe2	
+	1843860757	pip1			\Default Work Unit\pip1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	230853592	pipe4	C:\Users\xoesm\Documents\Unreal Projects\wwisetest\wwisetest_WwiseProject\.cache\70\{70445DFB-DC40-3B48-83B6-AB31CCB4B516}.wem		\Actor-Mixer Hierarchy\Default Work Unit\pipe4		150088
+	727397337	pipe1	C:\Users\xoesm\Documents\Unreal Projects\wwisetest\wwisetest_WwiseProject\.cache\84\{84428633-515F-5F66-619C-5192C56F0B3B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\pipe1		150044
+

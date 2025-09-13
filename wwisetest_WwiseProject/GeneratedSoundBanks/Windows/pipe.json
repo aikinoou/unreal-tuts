@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1843860801",
+    "Type": "User",
+    "GUID": "{A9F6C46E-4386-4DCD-BD76-F25E09B3317B}",
+    "Language": "SFX",
+    "Hash": "{4604EED2-048E-3F96-F24D-9836DF34C796}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\pipe",
+    "ShortName": "pipe",
+    "Path": "pipe.bnk",
+    "Media": [
+     {
+      "Id": "230853592",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "pipe4.wav",
+      "CachePath": "70/{70445DFB-DC40-3B48-83B6-AB31CCB4B516}.wem"
+     },
+     {
+      "Id": "727397337",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "pipe1.wav",
+      "CachePath": "84/{84428633-515F-5F66-619C-5192C56F0B3B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1843860757",
+      "Name": "pip1",
+      "ObjectPath": "\\Events\\Default Work Unit\\pip1",
+      "GUID": "{1F08C71E-E580-45AC-B48A-2B5E8D6808F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8500453",
+      "DurationMax": "0.8500453",
+      "MediaRefs": [
+       {
+        "Id": "727397337"
+       }
+      ]
+     },
+     {
+      "Id": "1137079649",
+      "Name": "pipe2",
+      "ObjectPath": "\\Events\\Default Work Unit\\pipe2",
+      "GUID": "{1A7298BB-B7FD-4AF0-BA90-F9E80977141A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.85029477",
+      "DurationMax": "0.85029477",
+      "MediaRefs": [
+       {
+        "Id": "230853592"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F0D65026-366F-5E4E-0372-C280F01EC398}"
+ }
+}

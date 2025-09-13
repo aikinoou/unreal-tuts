@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03EE5C8A-D58A-4C5C-AC93-F69CA53AB3DA}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{03EE5C8A-D58A-4C5C-AC93-F69CA53AB3DA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="pipe1" ID="{66452116-E014-4E67-A6C4-24BA29DE77A7}" ShortID="227663131">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A1407461-6C28-47DB-B0C6-B872F384FEDB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4592FA2-1895-4A0D-93BA-B77126060636}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="pipe1" ID="{98BE158B-ADD3-43AD-8634-5CD3882D2FAB}">
+							<Language>SFX</Language>
+							<AudioFile>pipe1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="727397337"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="pipe1" ID="{98BE158B-ADD3-43AD-8634-5CD3882D2FAB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="pipe2" ID="{4479C94A-EF3A-4E65-9E9D-0566722B15B5}" ShortID="703468697">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A1407461-6C28-47DB-B0C6-B872F384FEDB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4592FA2-1895-4A0D-93BA-B77126060636}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="pipe2" ID="{B4E4ACA5-C040-421F-8C3A-03DD91F24269}">
+							<Language>SFX</Language>
+							<AudioFile>pipe2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="958372978"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="pipe2" ID="{B4E4ACA5-C040-421F-8C3A-03DD91F24269}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="pipe3" ID="{BD31B0CB-ABA0-492D-AAF4-B41956A530D7}" ShortID="345706467">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A1407461-6C28-47DB-B0C6-B872F384FEDB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4592FA2-1895-4A0D-93BA-B77126060636}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="pipe3" ID="{DFDA5465-3BE4-4DF8-A961-18548C6CD0ED}">
+							<Language>SFX</Language>
+							<AudioFile>pipe3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1027472308"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="pipe3" ID="{DFDA5465-3BE4-4DF8-A961-18548C6CD0ED}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="pipe4" ID="{111EB160-4F2D-4157-94C2-849C3EB7699D}" ShortID="565425333">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A1407461-6C28-47DB-B0C6-B872F384FEDB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4592FA2-1895-4A0D-93BA-B77126060636}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="pipe4" ID="{6098B574-56E5-4067-BE83-F244AF3744B7}">
+							<Language>SFX</Language>
+							<AudioFile>pipe4.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="230853592"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="pipe4" ID="{6098B574-56E5-4067-BE83-F244AF3744B7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

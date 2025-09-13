@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F4AEEA09-55A1-4993-8E98-7CD968F921D4}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{F4AEEA09-55A1-4993-8E98-7CD968F921D4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="pip1" ID="{1F08C71E-E580-45AC-B48A-2B5E8D6808F4}">
+					<ChildrenList>
+						<Action Name="" ID="{D69699A7-D590-43B8-A955-6EA4E34BBE22}" ShortID="548903258">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pipe1" ID="{66452116-E014-4E67-A6C4-24BA29DE77A7}" WorkUnitID="{03EE5C8A-D58A-4C5C-AC93-F69CA53AB3DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B704EDE4-CCEE-4C79-90F2-2461A25A3294}" ShortID="52951830">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pipe2" ID="{4479C94A-EF3A-4E65-9E9D-0566722B15B5}" WorkUnitID="{03EE5C8A-D58A-4C5C-AC93-F69CA53AB3DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pipe2" ID="{1A7298BB-B7FD-4AF0-BA90-F9E80977141A}">
+					<ChildrenList>
+						<Action Name="" ID="{0CFE72DF-43D1-44D2-9622-C672ECB93DAC}" ShortID="423592536">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pipe4" ID="{111EB160-4F2D-4157-94C2-849C3EB7699D}" WorkUnitID="{03EE5C8A-D58A-4C5C-AC93-F69CA53AB3DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
